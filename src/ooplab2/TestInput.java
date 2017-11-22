@@ -25,10 +25,5 @@ public class TestInput {
         System.out.print("What is your weight?:");
         double weight = scanner.nextDouble();
         System.out.println("Your weight: "+weight);
-
-
-
-
-
     }//main
 }//class
