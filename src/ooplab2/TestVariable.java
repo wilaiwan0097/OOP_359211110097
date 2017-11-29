@@ -12,9 +12,10 @@ public class TestVariable {
         System.out.println("i*j="+(i+j));
         System.out.println("i/j="+(i+j));
         //double v = 50.5;
-        System.out.println("v ="+v);
-
-        i = (int) v;
+        double v;
+        System.out.println("v="+v);
+        v=i;//v=10.0
+        i=(int)v:
         System.out.println(i);
         System.out.println(v);
 
@@ -41,6 +42,9 @@ public class TestVariable {
 
 //      Shortcut Operator
         int number = 10;
+        System.out.println(number);
+        number+=1;//number=number+1;
+        number
         
     }//main
 }//class
