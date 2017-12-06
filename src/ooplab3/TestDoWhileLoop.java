@@ -15,19 +15,19 @@ public class TestDoWhileLoop {
         int count = 0;
         int input;
         Scanner scanner = new Scanner(System.in);
-        do{
+        do {
             System.out.println("Enter your password :");
             input = scanner.nextInt();
             count++;
-            if (input ==pin){
+            if (input == pin) {
                 System.out.println("Your passeord id correct.");
                 break;
             }
-            if (input ==3){
+            if (input == 3) {
                 System.out.println("System error.");
                 break;
             }
-
+        }while (input != pin);
 
     }//main
 }//class
