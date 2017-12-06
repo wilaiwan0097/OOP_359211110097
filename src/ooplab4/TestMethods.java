@@ -18,5 +18,11 @@ public class TestMethods {
     public static void main(String[] args) {
         System.out.println("Hello");
         A();
+        B(5,10);
+        int x = 10,y =20;
+        //type 3 return value management
+        //1
+        int num = c(x,y);
+        System.out.println(num);
     }//main
 }//class
