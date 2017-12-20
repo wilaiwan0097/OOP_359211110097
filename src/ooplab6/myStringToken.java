@@ -14,6 +14,7 @@ public class myStringToken {
         while (tokenizer.hasMoreTokens()){
             StringBuffer buffer = new StringBuffer(tokenizer.nextToken());
             System.out.println(tokenizer.nextToken());
+            System.out.println(buffer.reverse());
         }
 
     }//main
