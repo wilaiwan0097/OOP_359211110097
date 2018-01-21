@@ -46,7 +46,6 @@ public class Midterm2 {
 
     }//calculateTex
 
-
     private static Float GetOverTime() {
         System.out.print("Enter your OverTime : ");
         Float OverTime = scan.nextFloat();
@@ -70,6 +69,5 @@ public class Midterm2 {
         String ID = scan.nextLine();
         return ID;
     }//GetID
-
 
 }//class
