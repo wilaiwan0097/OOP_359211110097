@@ -35,29 +35,33 @@ public class Student {
     }
 
     public String getId (){
-        return this.id
+        return id
     }
     public void setId (String id){
         this.id = id;
     }
-    public String getName (){
-        return this.name
+
+    public String getName() {
+        return name;
     }
-    public void setId (String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public String getAddress (){
-        return this.Address
-    }
-    public void setId (String address){
-        this.Address = Address;
-    }
-    public String getGender (){
-        return this.gender
-    }
-    public void setId (String gender) {
-        this.Address = gender;
+
+    public String getAddress() {
+        return Address;
     }
 
+    public void setAddress(String address) {
+        Address = address;
+    }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }//class
