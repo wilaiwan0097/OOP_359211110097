@@ -10,7 +10,7 @@ public class StudentApp {
         s1.setId("001");
         s1.setName("Boy Saiyai");
         s1.setAddress("100 M.8 T.Saira");
-        s1.getGender("Female");
+        s1.setGender("Female");
 
         System.out.println(s1.getName());
         System.out.println(s1.getGender());
@@ -24,7 +24,7 @@ public class StudentApp {
         s2.setName("Girl Shongkla");
         System.out.println(s2.toString());
         //user assign data to object
-        Student s3 = new Student()
+        Student s3 = new Student();
                 s3 = inputData(s3);
         System.out.println(s3.toString());
     }

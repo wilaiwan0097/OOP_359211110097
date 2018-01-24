@@ -9,35 +9,37 @@ public class Student {
     //properties of Student
     private String id;
     private String name;
-    private String Address;
+    private String address;
     private String gender;
-    //constructor
-    //Default constructor
-    public Student () {}
-    //constructor by own
-    public Student (String id,String n,String a,String g){
+    //Constructor
+    //Default Constructor
+    public Student(){}
+    //Constructor by own
+    public Student(String id,String n,String a,String g){
         //assign data to properties
         this.id = id;
         this.name = n;
-        this.Address = a;
+        this.address = a;
         this.gender = g;
     }//Student
     //getter and setter methods
+
 
     @Override
     public String toString() {
         return "Student{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
-                ", Address='" + Address + '\'' +
+                ", address='" + address + '\'' +
                 ", gender='" + gender + '\'' +
                 '}';
     }
 
-    public String getId (){
-        return id
+    public String getId() {
+        return id;
     }
-    public void setId (String id){
+
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -50,11 +52,11 @@ public class Student {
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String address) {
-        Address = address;
+        this.address = address;
     }
 
     public String getGender() {
