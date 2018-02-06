@@ -17,7 +17,5 @@ public class PersonApp { public static void main(String[] args) {
     System.out.println(emp.toString());
 
 
-
-
     }//main
 }//class
