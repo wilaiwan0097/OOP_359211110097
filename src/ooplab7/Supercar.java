@@ -25,6 +25,19 @@ public class Supercar {
         this.country = country;
     }//Supercar
     //getter and setter methods
+
+
+    @Override
+    public String toString() {
+        return "Supercar{" +
+                "brand='" + brand + '\'' +
+                ", color='" + color + '\'' +
+                ", size='" + size + '\'' +
+                ", speed='" + speed + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
+
     public String getBrand() {
         return brand;
     }
