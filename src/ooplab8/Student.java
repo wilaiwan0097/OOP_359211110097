@@ -41,4 +41,5 @@ public class Student extends Person {
     public void setProgram(String program) {
         this.program = program;
     }
+
 }//class
