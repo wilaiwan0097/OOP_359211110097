@@ -1,6 +1,7 @@
 package ooplab8;
 
 public abstract class Pet {
+    String msg = "Hello";
     private String name;
     private String age;
     //constructor
