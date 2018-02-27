@@ -3,33 +3,15 @@ package ooplab9;
 public class Address {
     private String homeNo;
     private String province;
-    private String postCode;
-
-    public Address(String homeNo, String province, String postCode) {
-        this.homeNo = homeNo;
-        this.province = province;
-        this.postCode = postCode;
-    }
-    //toString
+    private String postcode;
 
     @Override
     public String toString() {
         return "Address{" +
                 "homeNo='" + homeNo + '\'' +
                 ", province='" + province + '\'' +
-                ", postCode='" + postCode + '\'' +
+                ", postcode='" + postcode + '\'' +
                 '}';
-    }
-
-    //getter and setter method
-
-
-    public String getHomeNo() {
-        return homeNo;
-    }
-
-    public void setHomeNo(String homeNo) {
-        this.homeNo = homeNo;
     }
 
     public String getProvince() {
@@ -40,11 +22,26 @@ public class Address {
         this.province = province;
     }
 
-    public String getPostCode() {
-        return postCode;
+    public String getPostcode() {
+        return postcode;
     }
 
-    public void setPostCode(String postCode) {
-        this.postCode = postCode;
+    public void setPostcode(String postcode) {
+        this.postcode = postcode;
+    }
+
+    public String getHomeNo() {
+
+        return homeNo;
+    }
+
+    public void setHomeNo(String homeNo) {
+        this.homeNo = homeNo;
+    }
+
+    public Address(String homeNo, String province, String postcode) {
+        this.homeNo = homeNo;
+        this.province = province;
+        this.postcode = postcode;
     }
 }//class

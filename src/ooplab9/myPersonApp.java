@@ -2,20 +2,20 @@ package ooplab9;
 
 public class myPersonApp {
     public static void main(String[] args) {
-        Person person = new Person("1800400231493","Wilaiwan",
-                new Address("100 M.8","Nakhon Si Tammarat","80150"),
-                new Job("Student","10000"));
+        Person person = new Person("359211110097", "Wilaiwan Khongnaun",
+                new Address("109 M.2", "Nakorn",
+                        "80110"),
+                new Job("Teacher", 20000));
+
         System.out.println(person.toString());
 
-        person.getJob().setSalary(20000);
-        System.out.println("Name: "+person.getName()+" Salary: "+ person.getJob().getSalary());
+        person.getJob().setSalary(30000);
+        System.out.println("Name: "+person.getName()+
+                " Salary: "+person.getJob().getSalary());
 
 
 
-
-
-    }
-
+    }   //main
 
 
 

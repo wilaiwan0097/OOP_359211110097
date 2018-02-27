@@ -3,17 +3,25 @@ package ooplab9;
 public class Person {
     private String personID;
     private String name;
-    private Address Address;
+    private Address address;
     private Job job;
 
-    //Constructor
-    public Person(String personID, String name, ooplab9.Address address, Job job) {
+    public Person(String personID, String name, Address address, Job job) {
         this.personID = personID;
         this.name = name;
-        Address = address;
+        this.address = address;
         this.job = job;
     }
-    //getter and setter method
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "personID='" + personID + '\'' +
+                ", name='" + name + '\'' +
+                ", address=" + address +
+                ", job=" + job +
+                '}';
+    }
 
     public String getPersonID() {
         return personID;
@@ -27,12 +35,12 @@ public class Person {
         this.name = name;
     }
 
-    public ooplab9.Address getAddress() {
-        return Address;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setAddress(ooplab9.Address address) {
-        Address = address;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public Job getJob() {
@@ -43,16 +51,4 @@ public class Person {
         this.job = job;
     }
 
-    //toString()
-
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "personID='" + personID + '\'' +
-                ", name='" + name + '\'' +
-                ", Address=" + Address +
-                ", job=" + job +
-                '}';
-    }
 }//class

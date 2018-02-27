@@ -2,16 +2,7 @@ package ooplab9;
 
 public class Job {
     private String position;
-    private Double salary;
-
-    //constructor
-
-    public Job(String position, Double salary) {
-        this.position = position;
-        this.salary = salary;
-    }
-
-    //toString()
+    private double salary;
 
     @Override
     public String toString() {
@@ -21,8 +12,6 @@ public class Job {
                 '}';
     }
 
-
-    //getter and setter method
     public String getPosition() {
         return position;
     }
@@ -31,11 +20,16 @@ public class Job {
         this.position = position;
     }
 
-    public Double getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(Double salary) {
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public Job(String position, double salary) {
+        this.position = position;
         this.salary = salary;
     }
 }//class
